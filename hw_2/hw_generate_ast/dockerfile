@@ -1,0 +1,11 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+RUN apt-get install -y curl bzip2 python3 python3-pip graphviz
+RUN apt-get install --no-install-recommends texlive-latex-extra texlive-fonts-extra texlive-lang-all
+RUN pip3 install pydot astunparse networkx matplotlib graphviz
+RUN pip3 install python-igraph plotly==5.13.1 seaborn
+RUN pip3 install generate-ast-aapoliakova==0.0.2
+
+
+
