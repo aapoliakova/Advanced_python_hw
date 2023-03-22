@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/generate_ast_aapoliakova.egg-info/PKG-INFO
+src/generate_ast_aapoliakova.egg-info/SOURCES.txt
+src/generate_ast_aapoliakova.egg-info/dependency_links.txt
+src/generate_ast_aapoliakova.egg-info/top_level.txt
+src/generate_ast_package/__init__.py
+src/generate_ast_package/generate_ast.py

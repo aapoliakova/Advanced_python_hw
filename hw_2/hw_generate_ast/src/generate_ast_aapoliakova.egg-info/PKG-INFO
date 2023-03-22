@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: generate-ast-aapoliakova
+Version: 0.0.2
+Summary: Generate network plot of AST
+Home-page: https://github.com/pypa/sampleproject
+Author: Poliakova Hanna
+Author-email: aapoliakovas@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

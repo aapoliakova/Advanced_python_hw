@@ -27,15 +27,23 @@ def generate_image(image_path):
     return first_line + res + last_line
 
 
-def f(x):
-    return x + 2
+# def f(x):
+#     return x + 2
+
+def f(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return f(n - 1) + f(n - 2)
 
 
 if __name__ == "__main__":
     table = [['1', '2', '3'], ['4', '5', '6'], ['7', '8', '9'], ['10', '11', '12']]
     body = generate_table_from_list(table)
 
-    image_path = "ast_new.jpg"
+    image_path = "ast_new_fib.jpg"
     plot_and_save_ast(f, image_path)
 
     body += generate_image(image_path)
