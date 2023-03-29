@@ -1,2 +1,7 @@
 matplotlib~=3.7.1
 networkx~=2.8.4
+igraph~=0.10.4
+numpy~=1.23.5
+seaborn~=0.12.2
+plotly~=5.13.1
+pdflatex~=0.1.3
